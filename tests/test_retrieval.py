@@ -48,7 +48,9 @@ class _TfidfEncoder:
         normalize_embeddings: bool = True,
     ) -> np.ndarray:
         self._fit_if_needed(texts if len(texts) > 1 else self._fitted_texts or texts)
-        matrix = self._vectorizer.transform(texts).toarray().astype(np.float32)  # type: ignore[union-attr]
+        if self._vectorizer is None:
+            raise RuntimeError("Vectorizer not fitted — call _fit_if_needed first.")
+        matrix = self._vectorizer.transform(texts).toarray().astype(np.float32)
         if normalize_embeddings:
             norms = np.linalg.norm(matrix, axis=1, keepdims=True)
             norms = np.where(norms == 0, 1.0, norms)

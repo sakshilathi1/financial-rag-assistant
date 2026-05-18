@@ -13,11 +13,13 @@ from rank_bm25 import BM25Okapi
 
 logger = logging.getLogger(__name__)
 
+_PUNCT_TABLE = str.maketrans(string.punctuation, " " * len(string.punctuation))
+
 
 def _tokenize(text: str) -> list[str]:
     """Lowercase, strip punctuation, split on whitespace."""
     text = text.lower()
-    text = text.translate(str.maketrans(string.punctuation, " " * len(string.punctuation)))
+    text = text.translate(_PUNCT_TABLE)
     return text.split()
 
 

@@ -15,6 +15,12 @@ from typing import Any
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    import lxml  # noqa: F401
+    _LXML_AVAILABLE = True
+except ImportError:
+    _LXML_AVAILABLE = False
+
 logger = logging.getLogger(__name__)
 
 _SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik}.json"
@@ -294,7 +300,7 @@ class SECLoader:
     @staticmethod
     def _parse_html(html: str) -> str:
         """Strip HTML tags and return clean plain text."""
-        soup = BeautifulSoup(html, "lxml")
+        soup = BeautifulSoup(html, "lxml" if _LXML_AVAILABLE else "html.parser")
 
         # Remove script and style blocks
         for tag in soup(["script", "style", "head", "meta"]):
