@@ -1,0 +1,402 @@
+[
+  {
+    "pair_id": "AAPL_0001",
+    "question": "What specific risk did Apple identify regarding economic risk from interest rates and foreign exchange rates?",
+    "expected_answer": "Apple is exposed to economic risk from interest rates and foreign exchange rates.",
+    "ground_truth_chunk_id": "AAPL_0145",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0002",
+    "question": "What specific tax risks did Apple identify regarding the application of tax laws?",
+    "expected_answer": "The application of tax laws may be uncertain, require significant judgment and be subject to differing interpretations.",
+    "ground_truth_chunk_id": "AAPL_0106",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0003",
+    "question": "What percentage of Apple's total net sales came from indirect distribution channels in 2025?",
+    "expected_answer": "60%",
+    "ground_truth_chunk_id": "AAPL_0009",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0004",
+    "question": "What year will Apple adopt ASU 2025-06?",
+    "expected_answer": "Apple will adopt ASU 2025-06 in its first quarter of 2029.",
+    "ground_truth_chunk_id": "AAPL_0140",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0005",
+    "question": "What specific risks did Apple identify regarding product liability claims?",
+    "expected_answer": "Apple identified the risk of product liability claims, recalls, product replacements or modifications, write-offs of inventory, property, plant and equipment or intangible assets, and significant warranty and other expenses.",
+    "ground_truth_chunk_id": "AAPL_0052",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0006",
+    "question": "What was Apple's total comprehensive income in 2024?",
+    "expected_answer": "Apple's total comprehensive income in 2024 was $98,016.",
+    "ground_truth_chunk_id": "AAPL_0153",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0007",
+    "question": "What specific jurisdictions does Apple have subsidiaries organized in?",
+    "expected_answer": "Apple has subsidiaries organized in Ireland and Singapore.",
+    "ground_truth_chunk_id": "AAPL_0105",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0008",
+    "question": "What specific risk did Apple identify regarding customer demand for its products and services?",
+    "expected_answer": "New and changing laws, regulations, executive orders, directives, and enforcement priorities can impact customer demand for the Company\u2019s products and services.",
+    "ground_truth_chunk_id": "AAPL_0081",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0009",
+    "question": "What was the amount of commercial paper outstanding for Apple as of September 27, 2025?",
+    "expected_answer": "Apple had $8.0 billion of commercial paper outstanding.",
+    "ground_truth_chunk_id": "AAPL_0195",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0010",
+    "question": "What was Apple's depreciation expense on property, plant and equipment in 2024?",
+    "expected_answer": "$8.2 billion",
+    "ground_truth_chunk_id": "AAPL_0184",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0001",
+    "question": "What specific areas of accounting does Microsoft identify as critical estimates?",
+    "expected_answer": "Microsoft has critical accounting estimates in the areas of revenue recognition, impairment of investment securities, goodwill, research and development costs, legal and other contingencies, and income taxes.",
+    "ground_truth_chunk_id": "MSFT_0213",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0002",
+    "question": "What specific risk did Microsoft identify regarding supplier capacity constraint?",
+    "expected_answer": "Microsoft may not obtain timely replacement supplies due to supplier capacity constraints.",
+    "ground_truth_chunk_id": "MSFT_0113",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0003",
+    "question": "What specific period did Microsoft's tax audits with the IRS primarily relate to?",
+    "expected_answer": "The tax years 2004 to 2013.",
+    "ground_truth_chunk_id": "MSFT_0350",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0004",
+    "question": "What specific level of fair value measurements does Microsoft use for certain assets and liabilities?",
+    "expected_answer": "The hierarchy lists three levels of fair value based on the extent to which inputs used in measuring fair value are observable in the market.",
+    "ground_truth_chunk_id": "MSFT_0264",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0005",
+    "question": "Which Microsoft product line generated the most revenue?",
+    "expected_answer": "Windows and Devices",
+    "ground_truth_chunk_id": "MSFT_0334",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0006",
+    "question": "What date did Deloitte & Touche LLP audit Microsoft's internal control over financial reporting?",
+    "expected_answer": "June 30, 2025",
+    "ground_truth_chunk_id": "MSFT_0355",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0007",
+    "question": "What specific risk did Microsoft identify regarding changes in factors that could impact its consolidated financial statements?",
+    "expected_answer": "Changes in the degree of probability of an unfavorable outcome and the ability to make a reasonable estimate of the amount of loss.",
+    "ground_truth_chunk_id": "MSFT_0223",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0008",
+    "question": "What metrics does Microsoft disclose to enable investors to evaluate progress against its ambitions?",
+    "expected_answer": "Microsoft discloses commercial and other business metrics, as well as financial metrics calculated based on GAAP.",
+    "ground_truth_chunk_id": "MSFT_0178",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0009",
+    "question": "What specific risk did Microsoft identify regarding remaining competitive?",
+    "expected_answer": "Microsoft may not remain competitive.",
+    "ground_truth_chunk_id": "MSFT_0066",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0010",
+    "question": "What specific risk did Microsoft identify regarding customers utilizing its AI products inappropriately?",
+    "expected_answer": "Microsoft identified the risk that customers may utilize its AI products in high-risk scenarios or inappropriately.",
+    "ground_truth_chunk_id": "MSFT_0106",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0001",
+    "question": "What was Alphabet's cash and cash equivalents at the end of period in fiscal year 2024?",
+    "expected_answer": "Alphabet's cash and cash equivalents at the end of period in fiscal year 2024 was $30,708.",
+    "ground_truth_chunk_id": "GOOGL_0249",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0002",
+    "question": "What specific risk did Alphabet identify regarding user access to its products by internet access providers?",
+    "expected_answer": "Alphabet identified the risk that some internet access providers may degrade, disrupt, or increase the cost of user access to certain of its products.",
+    "ground_truth_chunk_id": "GOOGL_0094",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0003",
+    "question": "What specific investments did Alphabet make through acquisitions?",
+    "expected_answer": "Acquisitions and strategic investments remain important elements in our use of capital.",
+    "ground_truth_chunk_id": "GOOGL_0158",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0004",
+    "question": "What specific metrics does Alphabet use to track monetization of traffic across various properties?",
+    "expected_answer": "Alphabet uses paid clicks and cost-per-click for Google Search & other properties, and impressions and cost-per-impression for Google Network properties.",
+    "ground_truth_chunk_id": "GOOGL_0164",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0005",
+    "question": "What was Alphabet's total net income in fiscal 2025?",
+    "expected_answer": "Alphabet's total net income in fiscal 2025 was $132,170.",
+    "ground_truth_chunk_id": "GOOGL_0246",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0006",
+    "question": "What specific risk did Alphabet identify regarding carrying value exceeding fair value?",
+    "expected_answer": "Alphabet identified that these investments could be impaired if the carrying value exceeds the fair value and is not expected to recover.",
+    "ground_truth_chunk_id": "GOOGL_0228",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0007",
+    "question": "What was Alphabet's Other Bets operating loss increase from 2024 to 2025?",
+    "expected_answer": "The increase in operating loss was $3.1 billion.",
+    "ground_truth_chunk_id": "GOOGL_0190",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0008",
+    "question": "What specific risk did Alphabet identify regarding intellectual property infringement claims?",
+    "expected_answer": "Intellectual property claims are often time consuming and expensive to litigate or settle.",
+    "ground_truth_chunk_id": "GOOGL_0122",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0009",
+    "question": "What percentage of Alphabet's cloud services revenue is recognized ratably over the contract term?",
+    "expected_answer": "Revenues related to cloud services provided on a subscription basis are recognized ratably over the contract term as the customer receives and consumes the benefits of the cloud services.",
+    "ground_truth_chunk_id": "GOOGL_0257",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0010",
+    "question": "What was Alphabet's total deferred revenue as of December 31, 2024?",
+    "expected_answer": "Total deferred revenue as of December\u00a031, 2024 was $6.0 billion.",
+    "ground_truth_chunk_id": "GOOGL_0292",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0001",
+    "question": "What specific risk did NVIDIA identify regarding not realizing a return on its investment in other companies?",
+    "expected_answer": "NVIDIA may not realize a return on its investment in other companies.",
+    "ground_truth_chunk_id": "NVDA_0133",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0002",
+    "question": "What was the total amount NVIDIA provided in land, power, and shell guarantees to early-stage companies?",
+    "expected_answer": "We provided $3.5 billion in land, power, and shell guarantees.",
+    "ground_truth_chunk_id": "NVDA_0231",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0003",
+    "question": "What specific risk did NVIDIA identify regarding its employees being hired by competitors?",
+    "expected_answer": "NVIDIA may face risks to its IP if its employees are hired by competitors.",
+    "ground_truth_chunk_id": "NVDA_0191",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0004",
+    "question": "What was NVIDIA's total net revenue in fiscal 2024?",
+    "expected_answer": "NVIDIA's total net revenue in fiscal 2024 was $29,760 million.",
+    "ground_truth_chunk_id": "NVDA_0296",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0005",
+    "question": "What was NVIDIA's total shareholders' equity as of January 25, 2026?",
+    "expected_answer": "157,293",
+    "ground_truth_chunk_id": "NVDA_0299",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0006",
+    "question": "What social media platforms does NVIDIA use to post material information?",
+    "expected_answer": "NVIDIA uses blogs.nvidia.com/, developer.nvidia.com/blog/, linkedin.com/company/nvidia, facebook.com/nvidia, instagram.com/nvidia, x.com/nvidia, threads.com/@nvidia, investor.nvidia.com, and YouTube.com/nvidia.",
+    "ground_truth_chunk_id": "NVDA_0002",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0007",
+    "question": "What was NVIDIA's total net revenue in fiscal 2026?",
+    "expected_answer": "NVIDIA recognized revenue of $974 million in fiscal year 2026.",
+    "ground_truth_chunk_id": "NVDA_0360",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0008",
+    "question": "What year did NVIDIA introduce its first Tensor Core GPU?",
+    "expected_answer": "2017",
+    "ground_truth_chunk_id": "NVDA_0011",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0009",
+    "question": "What was NVIDIA's fiscal year for the Consolidated Statements of Income?",
+    "expected_answer": "January 2, 2024",
+    "ground_truth_chunk_id": "NVDA_0283",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0010",
+    "question": "What are the expiration dates of NVIDIA's currently issued patents?",
+    "expected_answer": "Our currently issued patents have expiration dates from March 2026 to June 2045.",
+    "ground_truth_chunk_id": "NVDA_0045",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0001",
+    "question": "What was the total amount of auto and other loans at JPMorgan Chase that were due after 15 years as of December 31, 2025?",
+    "expected_answer": "69,110 million",
+    "ground_truth_chunk_id": "JPM_0524",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0002",
+    "question": "What was JPMorgan Chase's total consumer credit exposure as of December 31, 2024?",
+    "expected_answer": "JPMorgan Chase's total consumer credit exposure as of December 31, 2024 was $1,671,825 million.",
+    "ground_truth_chunk_id": "JPM_0896",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0003",
+    "question": "What specific type of mortgage loans does JPMorgan Chase's CIB originate and securitize?",
+    "expected_answer": "Commercial mortgage loans",
+    "ground_truth_chunk_id": "JPM_1163",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0004",
+    "question": "What was the total amount of gains/(losses) recorded in OCI for JPMorgan Chase's derivatives?",
+    "expected_answer": "827 million",
+    "ground_truth_chunk_id": "JPM_0937",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0005",
+    "question": "What was JPMorgan Chase's allowance for credit losses in fiscal 2024?",
+    "expected_answer": "30,942",
+    "ground_truth_chunk_id": "JPM_0586",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0006",
+    "question": "What was JPMorgan Chase's total held-to-maturity securities at fair value in fiscal 2024?",
+    "expected_answer": "253,344",
+    "ground_truth_chunk_id": "JPM_1030",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0007",
+    "question": "What was JPMorgan Chase's total revenue from the 'Financial Markets Infrastructure' segment?",
+    "expected_answer": "4,446",
+    "ground_truth_chunk_id": "JPM_0549",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0008",
+    "question": "What was the total amount of JPMorgan Chase's risk-weighted assets as of December 31, 2024?",
+    "expected_answer": "1,740,429",
+    "ground_truth_chunk_id": "JPM_1289",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0009",
+    "question": "What specific risk did JPMorgan Chase identify regarding the cybersecurity of third-party service providers?",
+    "expected_answer": "JPMorgan Chase does not have control over the cybersecurity of the systems of the numerous clients, customers, counterparties and third-party service providers with which it does business.",
+    "ground_truth_chunk_id": "JPM_0133",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0010",
+    "question": "What was JPMorgan Chase's average interest-earning assets in 2024?",
+    "expected_answer": "The Firm\u2019s average interest-earning assets were $3.8 trillion.",
+    "ground_truth_chunk_id": "JPM_0272",
+    "source_doc": "JPM",
+    "section": null
+  }
+]

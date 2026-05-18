@@ -1,0 +1,34 @@
+# Financial RAG Assistant — Docker Compose
+#
+# Prerequisites (run on the HOST before `docker compose up`):
+#   1. ollama serve            — Ollama must be running on the host, not in Docker.
+#   2. ollama pull llama3.1:8b — Pull the model once.
+#   3. python scripts/01_download_data.py   — Download 10-K filings.
+#   4. python scripts/02_build_index.py     — Build the ChromaDB index in ./data/.
+#
+# The container reads the pre-built index from ./data via the bind mount.
+# OLLAMA_HOST points to host.docker.internal so container → host Ollama works
+# on Docker Desktop (Mac/Windows) and on Linux (via extra_hosts below).
+
+version: "3.9"
+
+services:
+  financial-rag:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Bind-mount the entire data dir so the container can read the pre-built
+      # ChromaDB index and any future artefacts without rebuilding the image.
+      - ./data:/app/data
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    # Allows the container to reach host.docker.internal on Linux hosts.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/health').raise_for_status()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s

@@ -1,0 +1,82 @@
+[
+  {
+    "pair_id": "MSFT_0001",
+    "question": "What specific areas of accounting does Microsoft identify as critical estimates?",
+    "expected_answer": "Microsoft has critical accounting estimates in the areas of revenue recognition, impairment of investment securities, goodwill, research and development costs, legal and other contingencies, and income taxes.",
+    "ground_truth_chunk_id": "MSFT_0213",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0002",
+    "question": "What specific risk did Microsoft identify regarding supplier capacity constraint?",
+    "expected_answer": "Microsoft may not obtain timely replacement supplies due to supplier capacity constraints.",
+    "ground_truth_chunk_id": "MSFT_0113",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0003",
+    "question": "What specific period did Microsoft's tax audits with the IRS primarily relate to?",
+    "expected_answer": "The tax years 2004 to 2013.",
+    "ground_truth_chunk_id": "MSFT_0350",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0004",
+    "question": "What specific level of fair value measurements does Microsoft use for certain assets and liabilities?",
+    "expected_answer": "The hierarchy lists three levels of fair value based on the extent to which inputs used in measuring fair value are observable in the market.",
+    "ground_truth_chunk_id": "MSFT_0264",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0005",
+    "question": "Which Microsoft product line generated the most revenue?",
+    "expected_answer": "Windows and Devices",
+    "ground_truth_chunk_id": "MSFT_0334",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0006",
+    "question": "What date did Deloitte & Touche LLP audit Microsoft's internal control over financial reporting?",
+    "expected_answer": "June 30, 2025",
+    "ground_truth_chunk_id": "MSFT_0355",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0007",
+    "question": "What specific risk did Microsoft identify regarding changes in factors that could impact its consolidated financial statements?",
+    "expected_answer": "Changes in the degree of probability of an unfavorable outcome and the ability to make a reasonable estimate of the amount of loss.",
+    "ground_truth_chunk_id": "MSFT_0223",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0008",
+    "question": "What metrics does Microsoft disclose to enable investors to evaluate progress against its ambitions?",
+    "expected_answer": "Microsoft discloses commercial and other business metrics, as well as financial metrics calculated based on GAAP.",
+    "ground_truth_chunk_id": "MSFT_0178",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0009",
+    "question": "What specific risk did Microsoft identify regarding remaining competitive?",
+    "expected_answer": "Microsoft may not remain competitive.",
+    "ground_truth_chunk_id": "MSFT_0066",
+    "source_doc": "MSFT",
+    "section": null
+  },
+  {
+    "pair_id": "MSFT_0010",
+    "question": "What specific risk did Microsoft identify regarding customers utilizing its AI products inappropriately?",
+    "expected_answer": "Microsoft identified the risk that customers may utilize its AI products in high-risk scenarios or inappropriately.",
+    "ground_truth_chunk_id": "MSFT_0106",
+    "source_doc": "MSFT",
+    "section": null
+  }
+]

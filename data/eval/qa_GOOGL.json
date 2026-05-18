@@ -1,0 +1,82 @@
+[
+  {
+    "pair_id": "GOOGL_0001",
+    "question": "What was Alphabet's cash and cash equivalents at the end of period in fiscal year 2024?",
+    "expected_answer": "Alphabet's cash and cash equivalents at the end of period in fiscal year 2024 was $30,708.",
+    "ground_truth_chunk_id": "GOOGL_0249",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0002",
+    "question": "What specific risk did Alphabet identify regarding user access to its products by internet access providers?",
+    "expected_answer": "Alphabet identified the risk that some internet access providers may degrade, disrupt, or increase the cost of user access to certain of its products.",
+    "ground_truth_chunk_id": "GOOGL_0094",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0003",
+    "question": "What specific investments did Alphabet make through acquisitions?",
+    "expected_answer": "Acquisitions and strategic investments remain important elements in our use of capital.",
+    "ground_truth_chunk_id": "GOOGL_0158",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0004",
+    "question": "What specific metrics does Alphabet use to track monetization of traffic across various properties?",
+    "expected_answer": "Alphabet uses paid clicks and cost-per-click for Google Search & other properties, and impressions and cost-per-impression for Google Network properties.",
+    "ground_truth_chunk_id": "GOOGL_0164",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0005",
+    "question": "What was Alphabet's total net income in fiscal 2025?",
+    "expected_answer": "Alphabet's total net income in fiscal 2025 was $132,170.",
+    "ground_truth_chunk_id": "GOOGL_0246",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0006",
+    "question": "What specific risk did Alphabet identify regarding carrying value exceeding fair value?",
+    "expected_answer": "Alphabet identified that these investments could be impaired if the carrying value exceeds the fair value and is not expected to recover.",
+    "ground_truth_chunk_id": "GOOGL_0228",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0007",
+    "question": "What was Alphabet's Other Bets operating loss increase from 2024 to 2025?",
+    "expected_answer": "The increase in operating loss was $3.1 billion.",
+    "ground_truth_chunk_id": "GOOGL_0190",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0008",
+    "question": "What specific risk did Alphabet identify regarding intellectual property infringement claims?",
+    "expected_answer": "Intellectual property claims are often time consuming and expensive to litigate or settle.",
+    "ground_truth_chunk_id": "GOOGL_0122",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0009",
+    "question": "What percentage of Alphabet's cloud services revenue is recognized ratably over the contract term?",
+    "expected_answer": "Revenues related to cloud services provided on a subscription basis are recognized ratably over the contract term as the customer receives and consumes the benefits of the cloud services.",
+    "ground_truth_chunk_id": "GOOGL_0257",
+    "source_doc": "GOOGL",
+    "section": null
+  },
+  {
+    "pair_id": "GOOGL_0010",
+    "question": "What was Alphabet's total deferred revenue as of December 31, 2024?",
+    "expected_answer": "Total deferred revenue as of December\u00a031, 2024 was $6.0 billion.",
+    "ground_truth_chunk_id": "GOOGL_0292",
+    "source_doc": "GOOGL",
+    "section": null
+  }
+]

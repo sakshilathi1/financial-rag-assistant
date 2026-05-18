@@ -1,0 +1,82 @@
+[
+  {
+    "pair_id": "NVDA_0001",
+    "question": "What specific risk did NVIDIA identify regarding not realizing a return on its investment in other companies?",
+    "expected_answer": "NVIDIA may not realize a return on its investment in other companies.",
+    "ground_truth_chunk_id": "NVDA_0133",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0002",
+    "question": "What was the total amount NVIDIA provided in land, power, and shell guarantees to early-stage companies?",
+    "expected_answer": "We provided $3.5 billion in land, power, and shell guarantees.",
+    "ground_truth_chunk_id": "NVDA_0231",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0003",
+    "question": "What specific risk did NVIDIA identify regarding its employees being hired by competitors?",
+    "expected_answer": "NVIDIA may face risks to its IP if its employees are hired by competitors.",
+    "ground_truth_chunk_id": "NVDA_0191",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0004",
+    "question": "What was NVIDIA's total net revenue in fiscal 2024?",
+    "expected_answer": "NVIDIA's total net revenue in fiscal 2024 was $29,760 million.",
+    "ground_truth_chunk_id": "NVDA_0296",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0005",
+    "question": "What was NVIDIA's total shareholders' equity as of January 25, 2026?",
+    "expected_answer": "157,293",
+    "ground_truth_chunk_id": "NVDA_0299",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0006",
+    "question": "What social media platforms does NVIDIA use to post material information?",
+    "expected_answer": "NVIDIA uses blogs.nvidia.com/, developer.nvidia.com/blog/, linkedin.com/company/nvidia, facebook.com/nvidia, instagram.com/nvidia, x.com/nvidia, threads.com/@nvidia, investor.nvidia.com, and YouTube.com/nvidia.",
+    "ground_truth_chunk_id": "NVDA_0002",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0007",
+    "question": "What was NVIDIA's total net revenue in fiscal 2026?",
+    "expected_answer": "NVIDIA recognized revenue of $974 million in fiscal year 2026.",
+    "ground_truth_chunk_id": "NVDA_0360",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0008",
+    "question": "What year did NVIDIA introduce its first Tensor Core GPU?",
+    "expected_answer": "2017",
+    "ground_truth_chunk_id": "NVDA_0011",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0009",
+    "question": "What was NVIDIA's fiscal year for the Consolidated Statements of Income?",
+    "expected_answer": "January 2, 2024",
+    "ground_truth_chunk_id": "NVDA_0283",
+    "source_doc": "NVDA",
+    "section": null
+  },
+  {
+    "pair_id": "NVDA_0010",
+    "question": "What are the expiration dates of NVIDIA's currently issued patents?",
+    "expected_answer": "Our currently issued patents have expiration dates from March 2026 to June 2045.",
+    "ground_truth_chunk_id": "NVDA_0045",
+    "source_doc": "NVDA",
+    "section": null
+  }
+]

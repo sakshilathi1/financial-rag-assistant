@@ -1,0 +1,82 @@
+[
+  {
+    "pair_id": "AAPL_0001",
+    "question": "What specific risk did Apple identify regarding economic risk from interest rates and foreign exchange rates?",
+    "expected_answer": "Apple is exposed to economic risk from interest rates and foreign exchange rates.",
+    "ground_truth_chunk_id": "AAPL_0145",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0002",
+    "question": "What specific tax risks did Apple identify regarding the application of tax laws?",
+    "expected_answer": "The application of tax laws may be uncertain, require significant judgment and be subject to differing interpretations.",
+    "ground_truth_chunk_id": "AAPL_0106",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0003",
+    "question": "What percentage of Apple's total net sales came from indirect distribution channels in 2025?",
+    "expected_answer": "60%",
+    "ground_truth_chunk_id": "AAPL_0009",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0004",
+    "question": "What year will Apple adopt ASU 2025-06?",
+    "expected_answer": "Apple will adopt ASU 2025-06 in its first quarter of 2029.",
+    "ground_truth_chunk_id": "AAPL_0140",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0005",
+    "question": "What specific risks did Apple identify regarding product liability claims?",
+    "expected_answer": "Apple identified the risk of product liability claims, recalls, product replacements or modifications, write-offs of inventory, property, plant and equipment or intangible assets, and significant warranty and other expenses.",
+    "ground_truth_chunk_id": "AAPL_0052",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0006",
+    "question": "What was Apple's total comprehensive income in 2024?",
+    "expected_answer": "Apple's total comprehensive income in 2024 was $98,016.",
+    "ground_truth_chunk_id": "AAPL_0153",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0007",
+    "question": "What specific jurisdictions does Apple have subsidiaries organized in?",
+    "expected_answer": "Apple has subsidiaries organized in Ireland and Singapore.",
+    "ground_truth_chunk_id": "AAPL_0105",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0008",
+    "question": "What specific risk did Apple identify regarding customer demand for its products and services?",
+    "expected_answer": "New and changing laws, regulations, executive orders, directives, and enforcement priorities can impact customer demand for the Company\u2019s products and services.",
+    "ground_truth_chunk_id": "AAPL_0081",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0009",
+    "question": "What was the amount of commercial paper outstanding for Apple as of September 27, 2025?",
+    "expected_answer": "Apple had $8.0 billion of commercial paper outstanding.",
+    "ground_truth_chunk_id": "AAPL_0195",
+    "source_doc": "AAPL",
+    "section": null
+  },
+  {
+    "pair_id": "AAPL_0010",
+    "question": "What was Apple's depreciation expense on property, plant and equipment in 2024?",
+    "expected_answer": "$8.2 billion",
+    "ground_truth_chunk_id": "AAPL_0184",
+    "source_doc": "AAPL",
+    "section": null
+  }
+]

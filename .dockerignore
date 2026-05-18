@@ -1,0 +1,8 @@
+.venv
+__pycache__
+.pytest_cache
+data/raw
+*.BACKUP.*
+.git
+*.pyc
+.DS_Store

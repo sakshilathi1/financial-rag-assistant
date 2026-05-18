@@ -1,0 +1,37 @@
+eval:
+  qa_pairs_per_company: 50
+  target_total_pairs: 200
+  output_file: "data/eval/qa_pairs.json"
+  results_dir: "data/eval"
+
+  # Chunker + retrieval mode combinations to ablate
+  ablation_configs:
+    - chunker: "fixed"
+      retrieval_mode: "dense"
+      label: "fixed+dense"
+    - chunker: "fixed"
+      retrieval_mode: "hybrid"
+      label: "fixed+hybrid"
+    - chunker: "semantic"
+      retrieval_mode: "dense"
+      label: "semantic+dense"
+    - chunker: "semantic"
+      retrieval_mode: "hybrid"
+      label: "semantic+hybrid"
+
+  retrieval_metrics:
+    - hit_at_1
+    - hit_at_5
+    - hit_at_10
+    - mrr
+    - recall_at_10
+
+  generation_metrics:
+    - faithfulness
+    - relevance
+    - citation_accuracy
+
+  judge_llm:
+    provider: "ollama"
+    model: "llama3.1:8b"
+    temperature: 0.0    # deterministic for judging

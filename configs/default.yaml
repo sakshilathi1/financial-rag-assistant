@@ -1,0 +1,39 @@
+data_paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  eval_dir: "data/eval"
+  chroma_dir: "data/processed/chroma"
+
+embeddings:
+  model_name: "BAAI/bge-small-en-v1.5"
+  dimension: 384
+  batch_size: 64
+  normalize: true
+
+chunking:
+  chunk_size: 1000
+  overlap: 200
+  similarity_threshold: 0.7
+  min_chunk_size: 100
+
+retrieval:
+  top_k: 5
+  mode: "hybrid"          # "dense" | "hybrid"
+  bm25_weight: 0.3
+  dense_weight: 0.7
+  rrf_k: 60               # reciprocal rank fusion constant
+
+llm:
+  provider: "ollama"
+  model: "llama3.1:8b"
+  host: "${OLLAMA_HOST}"  # resolved from env
+  temperature: 0.1
+  max_tokens: 512
+  timeout_seconds: 120
+
+tickers:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - NVDA
+  - JPM

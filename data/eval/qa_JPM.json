@@ -1,0 +1,82 @@
+[
+  {
+    "pair_id": "JPM_0001",
+    "question": "What was the total amount of auto and other loans at JPMorgan Chase that were due after 15 years as of December 31, 2025?",
+    "expected_answer": "69,110 million",
+    "ground_truth_chunk_id": "JPM_0524",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0002",
+    "question": "What was JPMorgan Chase's total consumer credit exposure as of December 31, 2024?",
+    "expected_answer": "JPMorgan Chase's total consumer credit exposure as of December 31, 2024 was $1,671,825 million.",
+    "ground_truth_chunk_id": "JPM_0896",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0003",
+    "question": "What specific type of mortgage loans does JPMorgan Chase's CIB originate and securitize?",
+    "expected_answer": "Commercial mortgage loans",
+    "ground_truth_chunk_id": "JPM_1163",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0004",
+    "question": "What was the total amount of gains/(losses) recorded in OCI for JPMorgan Chase's derivatives?",
+    "expected_answer": "827 million",
+    "ground_truth_chunk_id": "JPM_0937",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0005",
+    "question": "What was JPMorgan Chase's allowance for credit losses in fiscal 2024?",
+    "expected_answer": "30,942",
+    "ground_truth_chunk_id": "JPM_0586",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0006",
+    "question": "What was JPMorgan Chase's total held-to-maturity securities at fair value in fiscal 2024?",
+    "expected_answer": "253,344",
+    "ground_truth_chunk_id": "JPM_1030",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0007",
+    "question": "What was JPMorgan Chase's total revenue from the 'Financial Markets Infrastructure' segment?",
+    "expected_answer": "4,446",
+    "ground_truth_chunk_id": "JPM_0549",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0008",
+    "question": "What was the total amount of JPMorgan Chase's risk-weighted assets as of December 31, 2024?",
+    "expected_answer": "1,740,429",
+    "ground_truth_chunk_id": "JPM_1289",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0009",
+    "question": "What specific risk did JPMorgan Chase identify regarding the cybersecurity of third-party service providers?",
+    "expected_answer": "JPMorgan Chase does not have control over the cybersecurity of the systems of the numerous clients, customers, counterparties and third-party service providers with which it does business.",
+    "ground_truth_chunk_id": "JPM_0133",
+    "source_doc": "JPM",
+    "section": null
+  },
+  {
+    "pair_id": "JPM_0010",
+    "question": "What was JPMorgan Chase's average interest-earning assets in 2024?",
+    "expected_answer": "The Firm\u2019s average interest-earning assets were $3.8 trillion.",
+    "ground_truth_chunk_id": "JPM_0272",
+    "source_doc": "JPM",
+    "section": null
+  }
+]
